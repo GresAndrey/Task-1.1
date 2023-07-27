@@ -12,11 +12,6 @@ import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
 
-//    private  final String url = "jdbc:postgresql://localhost:5432/postgres";
-//    private final String login = "postgres";
-//    private final String password = "gresandrey26rus";
-//    Connection conn = DriverManager.
-//            getConnection(url, login, password);
     Connection conn = Util.connection();
 
 
