@@ -9,8 +9,10 @@ public class Util {
     private static final String url ="jdbc:postgresql://localhost:5432/postgres";
     private static final String login ="postgres";
     private static final String password = "gresandrey26rus";
+
+    private static Connection conn = null;
     public static Connection connection() throws SQLException {
-        Connection conn = DriverManager.getConnection(url,login, password);
-        return null;
+        conn = DriverManager.getConnection(url,login, password);
+        return conn;
     }
 }
