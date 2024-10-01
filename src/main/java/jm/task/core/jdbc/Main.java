@@ -26,6 +26,7 @@ public class Main {
 
 //        SessionFactory sessionFactory = Util.sessionFactory();
 //        Session session = sessionFactory.getCurrentSession();
+        //problem
 //        try {
 //            session.beginTransaction();
 ////
