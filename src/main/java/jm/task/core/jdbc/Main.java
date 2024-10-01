@@ -23,7 +23,6 @@ public class Main {
 //
 ////        service.removeUserById(3);
 //
-//        System.out.println(service.getAllUsers());
 
 //        SessionFactory sessionFactory = Util.sessionFactory();
 //        Session session = sessionFactory.getCurrentSession();
